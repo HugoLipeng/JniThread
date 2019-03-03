@@ -1,0 +1,44 @@
+
+{
+	"buildFiles" : [ "/Users/hugo/Documents/Code-Study/JniThread/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"/Users/hugo/Downloads/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/hugo/Documents/Code-Study/JniThread/app/.externalNativeBuild/cmake/debug/x86_64 --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"native-lib-Debug-x86_64" : 
+		{
+			"abi" : "x86_64",
+			"artifactName" : "native-lib",
+			"buildCommand" : "/Users/hugo/Downloads/android-sdk-macosx/cmake/3.6.4111459/bin/cmake --build /Users/hugo/Documents/Code-Study/JniThread/app/.externalNativeBuild/cmake/debug/x86_64 --target native-lib",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/hugo/Documents/Code-Study/JniThread/app/src/main/cpp/native-lib.cpp",
+					"workingDirectory" : "/Users/hugo/Documents/Code-Study/JniThread/app/.externalNativeBuild/cmake/debug/x86_64"
+				},
+				
+				{
+					"flags" : "  --target=x86_64-none-linux-android --gcc-toolchain=/Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/sysroot  -Dnative_lib_EXPORTS -isystem /Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include -isystem /Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/libs/x86_64/include -isystem /Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/sources/cxx-stl/gnu-libstdc++/4.9/include/backward  -isystem /Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/sysroot/usr/include/x86_64-linux-android -D__ANDROID_API__=21 -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -Wa,--noexecstack -Wformat -Werror=format-security  -frtti -fexceptions -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "/Users/hugo/Documents/Code-Study/JniThread/app/src/main/cpp/JavaListener.cpp",
+					"workingDirectory" : "/Users/hugo/Documents/Code-Study/JniThread/app/.externalNativeBuild/cmake/debug/x86_64"
+				}
+			],
+			"output" : "/Users/hugo/Documents/Code-Study/JniThread/app/build/intermediates/cmake/debug/obj/x86_64/libnative-lib.so",
+			"toolchain" : "1617191679975359791"
+		}
+	},
+	"toolchains" : 
+	{
+		"1617191679975359791" : 
+		{
+			"cCompilerExecutable" : "/Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/hugo/Downloads/android-sdk-macosx/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}

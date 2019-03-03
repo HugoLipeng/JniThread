@@ -1,0 +1,4 @@
+# ninja log v5
+2	422	0	CMakeFiles/native-lib.dir/src/main/cpp/JavaListener.cpp.o	c0167cf08bbe6a45
+0	1349	0	CMakeFiles/native-lib.dir/src/main/cpp/native-lib.cpp.o	34f48ff4508c5907
+1351	1593	0	../../../../build/intermediates/cmake/debug/obj/arm64-v8a/libnative-lib.so	db47939b2515961f
