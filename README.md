@@ -1,0 +1,2 @@
+# JniThread
+音视频常用生产者消费者场景和C与java交互场景DEMO
